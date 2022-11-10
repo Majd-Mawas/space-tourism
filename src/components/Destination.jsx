@@ -6,7 +6,6 @@ import titan from "./../assets/destination/image-titan.png";
 import europa from "./../assets/destination/image-europa.png";
 
 const Destination = () => {
-  console.log(data);
   const [planet, setPlanet] = useState(0);
   useEffect(() => {}, [planet]);
   return (
